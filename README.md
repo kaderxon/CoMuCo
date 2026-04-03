@@ -30,11 +30,7 @@ Once CoOp is set up, download our repository and move our files into the CoOp di
 * Copy the contents of our `configs/` folder into CoOp's `configs/` directory.
 
 ### 3. Register the Trainer
-To let the framework recognize our model, open CoOp's `train.py` and import our trainer at the top of the file along with the other imports:
-```python
-# Add this line to main.py
-import trainers.your_comuco_trainer_name # Replace with the actual filename of our trainer
-```
+To let the framework recognize our model, open CoOp's `train.py` and import our trainer at the top of the file along with the other imports.
 
 ### 4. Start Training!
 That's it! You can now train and evaluate CoMuCo exactly following the standard CoOp workflow.
